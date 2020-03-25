@@ -10,6 +10,7 @@
 void addExt(char *path_c, char ext[]);
 void removeExt(char *path_c, char ext[]);
 void listFiles(char path[], int recursive);
+void encrypt(FILE *file, char *key);
 int getSizeFile(FILE *file);
 
 int main(void){
